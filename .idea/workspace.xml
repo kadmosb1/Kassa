@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4a4bf8-4da3-4158-a58c-7b7816fadae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kassa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kassa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/KassaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kassa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kassa.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZgVo4Fa4j0klq64mli4j9cHtbu" />
@@ -27,12 +41,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,9 +73,45 @@
       <option name="presentableId" value="Default" />
       <updated>1585260896194</updated>
     </task>
+    <task id="LOCAL-00001" summary="Eerste opzet project">
+      <created>1585261621866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585261621866</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Eerste opzet project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eerste opzet project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="168" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585262561317">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="168" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1304.768@62.0.1304.768" timestamp="1585262561317" />
+    <state x="565" y="276" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585262537048">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="565" y="276" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/62.0.1304.768@62.0.1304.768" timestamp="1585262537048" />
+    <state x="289" y="0" key="CommitChangelistDialog2" timestamp="1585261619659">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="289" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1585261619659" />
+    <state x="306" y="120" key="Vcs.Push.Dialog.v2" timestamp="1585261629171">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="306" y="120" key="Vcs.Push.Dialog.v2/62.0.1304.768@62.0.1304.768" timestamp="1585261629171" />
+    <state x="418" y="285" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585262252385">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="418" y="285" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/62.0.1304.768@62.0.1304.768" timestamp="1585262252385" />
+    <state x="485" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585262211438">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="485" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog/62.0.1304.768@62.0.1304.768" timestamp="1585262211438" />
   </component>
 </project>
