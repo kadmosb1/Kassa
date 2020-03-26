@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4a4bf8-4da3-4158-a58c-7b7816fadae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kassa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/KassaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kassa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kassa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kassa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kassa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/KassaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/KassaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -47,7 +45,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -61,6 +60,23 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="KassaTest.testDeToepassingVanKortingNaToevoegenVanProducten" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kassa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KassaTest" />
+      <option name="METHOD_NAME" value="testDeToepassingVanKortingNaToevoegenVanProducten" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KassaTest.testDeToepassingVanKortingNaToevoegenVanProducten" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,18 +105,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Eerste opzet project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="168" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585262561317">
+    <state x="168" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585264333741">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="168" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1304.768@62.0.1304.768" timestamp="1585262561317" />
+    <state x="168" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1304.768@62.0.1304.768" timestamp="1585264333741" />
+    <state x="443" y="172" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585264332573">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="443" y="172" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1304.768@62.0.1304.768" timestamp="1585264332573" />
     <state x="565" y="276" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585262537048">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="565" y="276" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/62.0.1304.768@62.0.1304.768" timestamp="1585262537048" />
-    <state x="289" y="0" key="CommitChangelistDialog2" timestamp="1585261619659">
+    <state x="289" y="0" key="CommitChangelistDialog2" timestamp="1585264496348">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="289" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1585261619659" />
+    <state x="289" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1585264496348" />
+    <state x="490" y="263" key="Github.CreatePullRequestDialog" timestamp="1585264444660">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="490" y="263" key="Github.CreatePullRequestDialog/62.0.1304.768@62.0.1304.768" timestamp="1585264444660" />
+    <state width="1261" height="192" key="GridCell.Tab.0.bottom" timestamp="1585264496382">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1585264496382" />
+    <state width="1261" height="192" key="GridCell.Tab.0.center" timestamp="1585264496382">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1585264496382" />
+    <state width="1261" height="192" key="GridCell.Tab.0.left" timestamp="1585264496382">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1585264496382" />
+    <state width="1261" height="192" key="GridCell.Tab.0.right" timestamp="1585264496382">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1585264496382" />
     <state x="306" y="120" key="Vcs.Push.Dialog.v2" timestamp="1585261629171">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
@@ -109,9 +149,9 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="418" y="285" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/62.0.1304.768@62.0.1304.768" timestamp="1585262252385" />
-    <state x="485" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585262211438">
+    <state x="485" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585264390095">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="485" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog/62.0.1304.768@62.0.1304.768" timestamp="1585262211438" />
+    <state x="485" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog/62.0.1304.768@62.0.1304.768" timestamp="1585264390095" />
   </component>
 </project>

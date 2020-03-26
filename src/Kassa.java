@@ -1,11 +1,13 @@
+import java.util.ArrayList;
+
 public class Kassa {
+
     /*
-     * Om de totaalprijs (incl. korting) te kunnen bepalen heb je een aantal
-     * producten (minimaal 3) nodig en moet de totaalprijs worden bijgehouden
-     * (minimaal € 100).
+     * Er kan een lijst met producten worden bijgehouden. Op basis van de producten
+     * in deze lijst wordt een totaalprijs bepaald en kan een korting worden
+     * berekend.
      */
-    private int aantalProducten;
-    private double totaalprijsZonderKorting;
+    ArrayList<Product> producten;
 
     /*
      * Een kassa moet leeg worden aangemaakt (aantal producten is gelijk aan 0
@@ -19,9 +21,8 @@ public class Kassa {
      * Als een product wordt toegevoegd, wordt de totaalprijsZonderKorting verhoogd
      * met de opgegeven prijs en wordt het aantal producten verhoogd met 1.
      */
-    public void voegProductToe (double prijs) {
-        totaalprijsZonderKorting =+ prijs;
-        aantalProducten++;
+    public void voegProductToe (Product product) {
+        producten.add (product);
     }
 
     /*
@@ -31,9 +32,14 @@ public class Kassa {
      */
     public double getTotaalprijsMetKorting () {
 
-        double totaalprijsMetKorting = totaalprijsZonderKorting;
+        int aantalProducten = producten.size ();
+        double totaalprijsMetKorting = 0.0;
 
-        if ((aantalProducten >= 3) && (totaalprijsZonderKorting >= 100.0)) {
+        for (Product product : producten) {
+            totaalprijsMetKorting += product.getPrijs();
+        }
+
+        if ((aantalProducten >= 3) && (totaalprijsMetKorting >= 100.0)) {
             totaalprijsMetKorting *= 0.9;
         }
 
@@ -45,7 +51,6 @@ public class Kassa {
      * voor een volgende klant vastgesteld kan worden.
      */
     public void resetKassa () {
-        aantalProducten = 0;
-        totaalprijsZonderKorting = 0.0;
+        producten = new ArrayList<Product> ();
     }
 }
